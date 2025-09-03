@@ -1,4 +1,4 @@
-#polimorfismo
+""" #polimorfismo
 
 class Personagens():
     def falar(self):
@@ -13,9 +13,32 @@ class Mago(Personagens):
 
 class Arqueiro(Personagens):
     def falar(self):
-        print("Minha mira é precisa")
+        print("Eu sou um arqueiro")
 
 
 #Criação dos objetos
 #lista de objetos
 personagens = [Guerreiro(), Mago(), Arqueiro()]
+
+#print todas as classes
+for p in personagens:
+    p.falar()
+
+ """
+
+
+""" #polymorphism sem herança
+
+class Cachorro:
+    def emitir_som(self):
+        print('Latir')
+
+class Gato:
+    def emitir_som(self):
+        print('Miar')
+
+#lista de objetos
+animais = [Cachorro(), Gato()]
+for animal in animais:
+    animal.emitir_som()
+ """
