@@ -19,7 +19,7 @@ class cliente(pessoas):
 
 
 
-f1 = funcionario('coco', 20 , "ti")
+f1 = funcionario('Ricardo', 20 , "ti")
 f1.apresentar(), f1.trabalho()
 
 
