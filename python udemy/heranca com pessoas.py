@@ -23,9 +23,8 @@ f1 = funcionario('Ricardo', 20 , "ti")
 f1.apresentar(), f1.trabalho()
 
 
-#
-# c1 = cliente('fdp', 500)
-# c1.apresentar()
+
+
 
 
 
